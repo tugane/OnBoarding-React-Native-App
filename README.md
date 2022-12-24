@@ -1,5 +1,7 @@
 # OnBoarding-React-Native-App
 
+**Starter Project** [Link](https://github.com/tugane/OnBoarding-React-Native-App-Starter)
+
 ## Get Started
 
 install dev dependencies
