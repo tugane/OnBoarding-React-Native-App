@@ -24,10 +24,10 @@ const WelcomeScreen: React.FC<Props> = ({ navigation: { navigate } }) => {
       <View>
         <ImageBackground
           style={{
-            height: height / 2.5,
+            height: height / 3,
           }}
           resizeMode="contain"
-          source={require("../assets/images/welcome-img.png")}
+          source={require("../assets/images/wel.jpg")}
         />
         <View
           style={{
@@ -39,11 +39,12 @@ const WelcomeScreen: React.FC<Props> = ({ navigation: { navigate } }) => {
             style={{
               fontSize: FontSize.xxLarge,
               color: Colors.primary,
+              fontWeight:'700',
               fontFamily: Font["poppins-bold"],
               textAlign: "center",
             }}
           >
-            Discover Your Dream Job here
+            Welcome to my app
           </Text>
 
           <Text
@@ -54,9 +55,7 @@ const WelcomeScreen: React.FC<Props> = ({ navigation: { navigate } }) => {
               textAlign: "center",
               marginTop: Spacing * 2,
             }}
-          >
-            Explore all the existing job roles based or your interest and study
-            major
+          >It must be located at the root of your project, next to the package.json. Here is a bare-minimum example:
           </Text>
         </View>
         <View
