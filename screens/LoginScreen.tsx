@@ -118,7 +118,7 @@ const LoginScreen: React.FC<Props> = ({ navigation: { navigate } }) => {
           </Text>
         </TouchableOpacity>
 
-        <View
+        {/* <View
           style={{
             marginVertical: Spacing * 3,
           }}
@@ -184,7 +184,7 @@ const LoginScreen: React.FC<Props> = ({ navigation: { navigate } }) => {
               />
             </TouchableOpacity>
           </View>
-        </View>
+        </View> */}
       </View>
     </SafeAreaView>
   );
